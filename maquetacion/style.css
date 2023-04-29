@@ -40,7 +40,8 @@ a.redondo {
     border: 2px solid #201b24;
     border-radius: 25px;
     padding: 0px 25px ;
-    line-height: 35px;
+    padding-top: 5px;
+    line-height: 28px;
     margin-top: 5px;
     background-color: #fff;
 }
@@ -48,16 +49,20 @@ a.redondo:hover {
     background-color: #201b24;
     color: #fff;
 }
-/*
+
 .redondo-color {
     color: #6b53f0; 
     border: 2px solid #6b53f0;
     border-radius: 25px;
-    padding: 0px 25px ;
+    padding: 0px 25px;
     line-height: 35px;
-    margin-top: 5px; 
-    
-}*/
+    margin-top: 5px;
+    font-size: 13px;
+}
+.redondo-color:hover {
+    color: #fff;
+    background-color: #6b53f0;
+}
 span {
     font-size: 13px;
 }
@@ -83,7 +88,6 @@ div#introduction-actions {
 #introduction {
     padding: 48px;
 }
-
 .container {
     background-color: #201b24;
     background-position: center center;
